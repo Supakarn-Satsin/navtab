@@ -22,6 +22,10 @@
   .navbar-brand, .form-control, .btn {
     font-size: 25px !important; /* ขยายทุกอย่างใน Navbar และฟอร์ม */
   }
+  .card-img-top{
+    margin: 25px auto;
+    width:80%;
+  }
 </style>
 </head>
 <body>
@@ -48,35 +52,511 @@
       </div>
     </div>
   </div>
-
-<!-- Navbar -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary position-relative z-0">
-  <!-- ใช้ margin-left แทน position-absolute -->
   <img src="img/logo.png" class="logo-img" height="100" style="margin-left: 0; margin-right: 20px;">
-  
+
   <div class="container">
     <ul class="nav nav-tabs" id="myTab" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">สท.4/2</button>
       </li>
       <li class="nav-item" role="presentation">
-        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
-      </li>
-      <li class="nav-item" role="presentation">
-        <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">สท.4/1</button>
       </li>
     </ul>
   </div>
 </nav>
 
-<!-- Tab content -->
- <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">มังกี้</div>
-  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">ฮิปโป</div>
-  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">จิ้งจก</div>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+  </div>
+  <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+    <div class="container mt-5">
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/24.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010024</h5>
+              <p class="card-text">นายภีระพัฒน์   คำอ้อ</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/25.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010025</h5>
+              <p class="card-text">นายภูริวัจน์   ลิ้มวัฒนโรจน์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/26.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010026</h5>
+              <p class="card-text">นางสาวมินทร์ตรายา   เจริญผล</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/27.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010027</h5>
+              <p class="card-text">นางสาวยุพาวัลย์   อินจันทร์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/28.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010028</h5>
+              <p class="card-text">นายวราวุธ   เพ็งขุนทด</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/29.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010029</h5>
+              <p class="card-text">นางสาววาสนา   ไทรศักดิ์สิทธิ์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/30.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010030</h5>
+              <p class="card-text">นางสาววิรดา   ยาจันทรา</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/31.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010031</h5>
+              <p class="card-text">นายวิศรุต   นามเสนาะ</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/32.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010032</h5>
+              <p class="card-text">นายศตวรรษ   เนื่องจำนงค์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/33.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010033</h5>
+              <p class="card-text">นายศิริศักดิ์   เจริญอาจ</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/34.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010034</h5>
+              <p class="card-text">นายศิวัฒน์   เลิศขุนทด</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/35.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010035</h5>
+              <p class="card-text">นายศุภกานต์   สาตสิน</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/36.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010036</h5>
+              <p class="card-text">นายศุภฤกษ์   ยะตั๋น</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/37.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010037</h5>
+              <p class="card-text">นางสาวศุภิสรา   แสนเจียม</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/38.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010038</h5>
+              <p class="card-text">นายสธน   ลิ้มสกุลทิพย์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/39.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010039</h5>
+              <p class="card-text">นายสรธร   มนูญธรรมพร</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/40.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010040</h5>
+              <p class="card-text">นายสิปปวิชญ์   ฉิมกลาง</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/41.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010041</h5>
+              <p class="card-text">นายสิรภัทร   จุฬารัชศิลป์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/42.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010042</h5>
+              <p class="card-text">นายสุรวัฒน์  ศรีสุวรรณ์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/43.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010043</h5>
+              <p class="card-text">นางสาวหทัยกาญจน์   บุญทัศน์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/44.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010044</h5>
+              <p class="card-text">นายอนันต์สิทธิ์   จุ้ยเย็น</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/45.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010045</h5>
+              <p class="card-text">นายออสการ์   คลาวสลี่ย์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+    <div class="container mt-5">
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/01.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010001</h5>
+              <p class="card-text">นายกรณ์ดนัย อินทรโอสถ</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/02.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010002</h5>
+              <p class="card-text">นางสาวกัญญาวีร์ ศรีกัลยาณกุล</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/03.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010003</h5>
+              <p class="card-text">นายจาตุรนต์ แสงสังข์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/04.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010004</h5>
+              <p class="card-text">นายจิรวัฒน์ บุญแผน</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/05.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010005</h5>
+              <p class="card-text">นางสาวชลธิชา หล้าโสม</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/06.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010006</h5>
+              <p class="card-text">นายชัยวัฒน์ ปรารมย์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/07.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010007</h5>
+              <p class="card-text">นายชัยวัฒน์ ลบแย้ม</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/08.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010031</h5>
+              <p class="card-text">นายณภัทร เสลี</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/09.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010009</h5>
+              <p class="card-text">นายณัฐพล พันธุ</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/10.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010010</h5>
+              <p class="card-text">นายทัพพ์จิรัฐ กาญจนเกตุ</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/11.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010011</h5>
+              <p class="card-text">นายธนวัฒน์ ทองดีนอก</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/12.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010012</h5>
+              <p class="card-text">นายธนสร ใสยิ่ง</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/13.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010013</h5>
+              <p class="card-text">นางสาวธวัลรัตน์ เกตุมงคลวิวัฒน์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/14.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010014</h5>
+              <p class="card-text">นายธันวา เกตุสุวรรณ</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/15.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010015</h5>
+              <p class="card-text">นายธีรวัฒน์ พรมสิงห์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/16.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010016</h5>
+              <p class="card-text">นางสาวนภัส เพชรฤทธิ์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/17.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010017</h5>
+              <p class="card-text">นายนรวีร์ ย่วนยินรักษ์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/18.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010018</h5>
+              <p class="card-text">นายนฤเบศ แพทย์ประสิทธิ์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/19.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010019</h5>
+              <p class="card-text">นายนาวิน ศิริขันแสง</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/20.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010020</h5>
+              <p class="card-text">นางสาวนิลนภา หินโม</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/21.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010021</h5>
+              <p class="card-text">นายแผ่นฟ้า เทศวิศาล</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/22.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010022</h5>
+              <p class="card-text">นายพัณณ์กฤต สินธุรักษ์</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+                <div class="col">
+          <div class="card h-100">
+            <img src="img/23.jpg" class="card-img-top rounded-circle" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">68319010023</h5>
+              <p class="card-text">นายภัทรพล พลเขต</p>
+              <button class="btn btn-primary">Profile</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
 </div>
   <!-- Bootstrap JS -->
